@@ -1,0 +1,3 @@
+[submodule "carbon-t-eurekaserver"]
+	path = carbon-t-eurekaserver
+	url = https://github.com/Mahmoud-Saad92/carbon-t-eurekaserver.git
