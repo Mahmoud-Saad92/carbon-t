@@ -1,3 +1,6 @@
 [submodule "carbon-t-eurekaserver"]
 	path = carbon-t-eurekaserver
 	url = https://github.com/Mahmoud-Saad92/carbon-t-eurekaserver.git
+[submodule "carbon-t-config-server"]
+	path = carbon-t-config-server
+	url = https://github.com/Mahmoud-Saad92/carbon-t-config-server.git
