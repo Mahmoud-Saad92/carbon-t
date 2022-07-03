@@ -4,3 +4,6 @@
 [submodule "carbon-t-config-server"]
 	path = carbon-t-config-server
 	url = https://github.com/Mahmoud-Saad92/carbon-t-config-server.git
+[submodule "carbon-t-user-service"]
+	path = carbon-t-user-service
+	url = https://github.com/Mahmoud-Saad92/carbon-t-user-service.git

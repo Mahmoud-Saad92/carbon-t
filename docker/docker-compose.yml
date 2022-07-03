@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  config-server:
+    build:
+      context: ../carbon-t-config-server
+      dockerfile: Dockerfile
+    ports:
+      - '8071:8071'
+    networks:
+      backend:
+        aliases:
+          - 'config-server'
+
+  eureka-server:
+    build:
+      context: ../carbon-t-eurekaserver
+      dockerfile: Dockerfile
+    ports:
+      - '8070:8070'
+    depends_on:
+      config-server:
+        condition: service_started
+    networks:
+      backend:
+        aliases:
+          - 'eureka-server'
+
+networks:
+  backend:
+    driver: bridge
