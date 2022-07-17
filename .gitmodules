@@ -10,3 +10,6 @@
 [submodule "carbon-t-contact-service"]
 	path = carbon-t-contact-service
 	url = https://github.com/Mahmoud-Saad92/carbon-t-contact-service.git
+[submodule "carbon-t-gatewayserver"]
+	path = carbon-t-gatewayserver
+	url = https://github.com/Mahmoud-Saad92/carbon-t-gatewayserver.git
